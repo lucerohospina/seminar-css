@@ -20,6 +20,10 @@ li a {
     text-decoration: none;
 }
 
+li:hover {
+    color: #ffc107;
+}
+
 ul li {
     display: inline;
     list-style: none;
@@ -45,4 +49,53 @@ nav {
     display: inline-block;
 }
 
+.logo-square {
+    width: 100px;
+ 
+}
+
+section {
+    text-align: center;
+}
+
+.section-up {
+    margin-top: 50px;
+}
+
+div {
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 80px;
+    width: 33%;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    font-size: 40px;
+    transition: 5s;
+}
+
+[class^="icon-"]:hover, [class*=" icon-"]:hover {
+    color: #ffc107;
+}
+
+footer {
+    background-color: #303030;
+    text-align: center;
+    padding: 5px;
+    color: #fff;
+}
+
+.btn {
+    background: #f6a831;
+    border-style: none;
+    border-radius: 5px;
+    color: white;
+    font-family: inherit;
+    padding: 15px;
+    font-size: 15px;
+}
+
+.btn:hover {
+    background-color: #303030;
+}
 
